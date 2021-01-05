@@ -1,0 +1,405 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    
+}
+header{
+    background: url("../img/Polind00.png") no-repeat  ;
+    
+    width: 100%;
+}
+.marg{
+    padding: 35px;
+    margin-bottom: 11%;
+}
+
+/*nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+
+.LOG{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.fa {
+    color: #ffffff;
+    cursor: pointer;
+}
+.fa:hover{
+    color: #ffc74a ;
+    cursor: pointer;
+}
+.ul{
+    position: relative;
+   float: right;
+}
+.clear{
+    clear: both;
+}
+ul li{
+    list-style-type: none;
+    float: left ;
+    padding: 15px;
+    color: #ffffff ;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul li:hover{
+    color: #ffc74a;
+}
+.p{
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: bold;
+   margin: 0;
+    
+    
+}
+.Pol{
+    color: #ed6950;
+    
+    font-weight: bold;
+    /*position: relative;
+    top: 50px;
+    right: 22%;*/
+}
+.bigT{
+    text-align: center;
+   
+    }
+.popular{
+    font-size: 12px;
+    color: #5f6264;
+    margin-top: 240px;
+}
+.gray{
+    color: #5f6264;
+    /*position: relative;
+    top: 15px;*/
+}
+.btn{
+    /*width: 230px;
+    height: 50px;*/
+    color: #b98000;
+    background-color: #ffc74a;
+    border-radius: 25px;
+    margin-top: 40px;
+    border: 1px solid #ffc74a ;
+    padding: 16px 35px;
+    outline: none;
+}
+.best{
+    margin-top: 20px;
+}
+.flex-container{
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+    margin-top: 80px;
+    max-height: 380px;
+    overflow: hidden;
+}
+.flex-container div{
+    flex: auto;
+    width: 200px;
+    
+}
+.flex-container div img{
+    width: 100%;
+       
+   }
+  
+.div2 , .div3 , .div4 , .div5{
+    padding-left: 10px;
+}
+
+.where{
+    color: #606f81;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+.zako{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 150px;
+    font-size: 25px;
+}
+.Malo{
+    color: #ffc74a;
+    font-size: 15px;
+}
+
+
+.sando_1{
+    font-size: 15px;
+    
+}
+.btn_1{
+    color: #b98000;
+    background-color: #ffc74a;
+    border-radius: 25px;
+    
+    border: 1px solid #ffc74a ;
+    padding: 16px 35px;
+    outline: none;
+}
+.sop{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.sop_1{
+    font-size: 15px;
+    color: #ffc74a;
+}
+.se{
+    text-align: center;
+    
+}
+.search{
+    outline: none;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: -1px 0px 2px #8888885e;
+    padding: 18px;
+}
+.btn_2{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffc74a;
+    background-color: white;
+    font-size: 25px;
+    
+}
+.fas:hover{
+    transform: scale(1.5,1.5);
+}
+.search:focus{
+    box-shadow: -1px 0px 28px #ffc74a;
+}
+.all_btn{
+text-align: center;
+position: relative;
+display: inline;
+}
+
+.butt_1{
+    color: white;
+    background-color: #bdc8d9;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 30px;
+    margin: 0 4px;
+}
+.butt_1:hover{
+    transform: scale(1.2,1.2);
+    
+}
+.butt_1:focus{
+    background-color: #ffc74a;
+}
+.butt_2{
+    color: #8d97a5 ;
+    background-color: white;
+    outline: none;
+    border:  1px solid #abb1ba;;
+    border-radius: 20px;
+    padding: 7px 30px; 
+    margin: 0 4px;
+}
+.butt_2:hover{
+    transform: scale(1.2,1.2);
+}
+.butt_2:focus{
+    background-color: #ffc74a;
+    color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+    justify-content: center;
+    grid-gap: 8px 27px;
+}
+.grid-container img{
+    width: 100%;
+}
+
+
+section{
+    margin-top: 5% ;
+}
+.grid-container div{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+.grid-container input{
+    background-color: white;
+    color: #bdc8d9;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 1px 20px #bdc8d996;
+    padding: 10px 20px;
+    
+}
+.grid-container input:hover{
+    background-color: #ffc74a;
+    color: #b98000;
+    cursor: pointer;
+}
+.img_4 , .img_5 , .img_6{
+    margin-top: 40px;
+    
+}
+.img_4 , .img_5 , .img_6 , .img_1 , .img_2 , .img_3{
+    box-shadow: 0px 1px 20px #bdc8d996; 
+   
+}
+.grid-container h4{
+    color: #606f81;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.grid-container p{
+    color: #aab0b9;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+.art{
+   
+    margin-top: 60px;
+    justify-content: center;
+    grid-gap: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+ h3{
+    color: #606f81;
+    font-size: 30px;
+    text-align: center;
+}
+.tekst{
+    
+    
+}
+.image img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+.bord{
+    height: 530px;
+    width: 540px;
+    border: 15px solid #ffc74a;
+    z-index: -1;
+    position: absolute;
+    bottom: -40px;
+    left: 863px;
+
+}
+.txt{
+    font-size: 13px;
+    color: #929ba7;
+}
+
+
+.orange{
+    color: #f8c759;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0;
+   
+}
+.btn_1:hover{
+    cursor: pointer;
+}
+.beauty{
+    background: url("../img/Polind15.png") no-repeat;
+   
+   padding: 60px 0;
+    
+}
+.foot{
+    margin-top: 115px;
+   
+}
+.cent{
+    text-align: center;
+}
+.enjoy{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.first{
+    color: #b98000;
+    background-color: #ffc74a;
+    width: 154px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.link{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 30px;
+}
+.cent a{
+    color: #d4a53e;
+}
+footer{
+    padding: 80px;
+    text-align: center;
+
+}
+footer p{
+    color: #606f81;
+    font-weight: bold;
+    font-size: 25pxpx;
+}
+.grd{
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-top: 16px;
+    grid-gap: 60px;
+}
+.half_btn div{
+    margin-bottom: 15px;
+}
+
